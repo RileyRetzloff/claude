@@ -1,3 +1,7 @@
+<h3>
+**NOTE:** This is my personal fork of the <a href="https://github.com/florisdobber/claude-raycast.git">original</a> Claude Raycast extension by <a href="https://github.com/florisdobber">Floris Dobber</a>.
+</h3>
+
 <p align="center">
 <img width=100 src="./assets/icon.png">
 </p>
@@ -12,7 +16,6 @@ Interact with Anthropic's Claude right from your command bar
 <a href="https://github.com/raycast/extensions/tree/main/extensions/claude" title="Claude Raycast extension latest source code">Latest source code
 </a>
 </p>
-
 
 ![All Commands](metadata/all_commands.png)
 
@@ -50,7 +53,6 @@ Got the answer that you wanted? Great.
 - `claude-3-sonnet-20240229`
 - `claude-3-opus-20240229`
 
-
 ## Claude 2
 
 - `claude-2.0`
@@ -68,9 +70,10 @@ This package requires a valid API key from [Anthropic](https://docs.anthropic.co
 
 All preferences properties list that can be customize through `Raycast Settings > Extensions > Claude`
 
-| Properties               | Label                  | Value                               | Required | Default | Description                                                                                                      |
-| ------------------------ | ---------------------- | ----------------------------------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------- |
-| `apiKey`                 | API Key                | `string`                            | `true`   | `empty` | Your personal Anthropic API key                                                                                   |
-| `isAutoLoadText`         | Auto-load              | `boolean`                           | `false`  | `false` | Load selected text from your frontmost application to the `question bar` or `full text input form` automatically |
-| `isAutoFullInput`        | Use Full Text Input    | `boolean`                           | `false`  | `false` | Switch to `full text input form` from `question bar` automatically whenever you want to ask or type a question   |
+| Properties        | Label               | Value     | Required | Default | Description                                                                                                      |
+| ----------------- | ------------------- | --------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------- |
+| `apiKey`          | API Key             | `string`  | `true`   | `empty` | Your personal Anthropic API key                                                                                  |
+| `isAutoLoadText`  | Auto-load           | `boolean` | `false`  | `false` | Load selected text from your frontmost application to the `question bar` or `full text input form` automatically |
+| `isAutoFullInput` | Use Full Text Input | `boolean` | `false`  | `false` | Switch to `full text input form` from `question bar` automatically whenever you want to ask or type a question   |
+
 ---
